@@ -1,0 +1,10 @@
+@media print {
+  @page {
+    size: 80mm 80mm; /* Establece el tamaño del papel a 80mm x 80mm */
+    margin: 0; /* Elimina los márgenes predeterminados para aprovechar al máximo el papel */
+  }
+  body {
+    width: 80mm; /* Establece el ancho del cuerpo al tamaño del papel */
+  }
+  /* Agrega otros estilos de impresión según sea necesario */
+}
